@@ -8,7 +8,7 @@ import canUploadSameBuffer from './utils/canUploadSameBuffer';
  * @memberof PIXI
  * @type {string}
  */
-export const VERSION = __VERSION__;
+export const VERSION = '4.2.1-tmpo';
 
 /**
  * Two Pi.

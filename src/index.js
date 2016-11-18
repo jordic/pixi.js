@@ -2,30 +2,30 @@
 import './polyfill';
 
 // export core
-export * from './deprecation';
+// export * from './deprecation';
 export * from './core';
 
 // export libs
-import * as accessibility from './accessibility';
-import * as extract from './extract';
-import * as extras from './extras';
-import * as filters from './filters';
+// import * as accessibility from './accessibility';
+//import * as extract from './extract';
+// import * as extras from './extras';
+// import * as filters from './filters';
 import * as interaction from './interaction';
-import * as loaders from './loaders';
-import * as mesh from './mesh';
+// import * as loaders from './loaders';
+// import * as mesh from './mesh';
 import * as particles from './particles';
-import * as prepare from './prepare';
+// import * as prepare from './prepare';
 
 export {
-    accessibility,
-    extract,
-    extras,
-    filters,
+    // accessibility,
+    // extract,
+    // extras,
+    // filters,
     interaction,
-    loaders,
-    mesh,
-    particles,
-    prepare,
+    // loaders,
+    // mesh,
+    particles
+    // prepare
 };
 
 /**
@@ -35,9 +35,9 @@ export {
  * @memberof PIXI
  * @property {PIXI.loaders.Loader}
  */
-const loader = loaders && loaders.Loader ? new loaders.Loader() : null; // check is there in case user excludes loader lib
+// const loader = loaders && loaders.Loader ? new loaders.Loader() : null; // check is there in case user excludes loader lib
 
-export { loader };
+// export { loader };
 
 // Always export pixi globally.
-global.PIXI = exports; // eslint-disable-line
+// global.PIXI = exports; // eslint-disable-line
